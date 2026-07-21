@@ -32,6 +32,16 @@ namespace Task
             //    Console.WriteLine(sb.ToString());
             //}
             #endregion
+
+            #region Question04
+            //{
+            //    StringBuilder sb = new StringBuilder();
+            //    sb.Append("Book List");
+            //    sb.Append(" - Updated");
+            //    sb.Replace("Book List", "Library");
+            //    Console.WriteLine(sb.ToString());
+            //}
+            #endregion
         }
     }
 }
