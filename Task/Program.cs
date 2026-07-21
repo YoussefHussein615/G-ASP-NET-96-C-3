@@ -42,6 +42,15 @@ namespace Task
             //    Console.WriteLine(sb.ToString());
             //}
             #endregion
+
+            #region Question05
+            //{
+            //    string title = "Clean Code";
+            //    int pages = 464;
+            //    string sentence = "Book: " + title + ", Pages: " + pages;
+            //    Console.WriteLine(sentence);
+            //}
+            #endregion
         }
     }
 }
