@@ -17,10 +17,10 @@ namespace Task
             #endregion
 
             #region Question 2
-            string title = "Clean code";
-            string title2 = "Clean code";
-            bool areSame = ReferenceEquals(title, title2);
-            Console.WriteLine(areSame);
+            //string title = "Clean code";
+            //string title2 = "Clean code";
+            //bool areSame = ReferenceEquals(title, title2);
+            //Console.WriteLine(areSame);
 
             #endregion
 
