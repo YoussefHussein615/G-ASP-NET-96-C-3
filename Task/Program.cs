@@ -1,4 +1,6 @@
-﻿namespace Task
+﻿using System.Text;
+
+namespace Task
 {
     internal class Program
     {
@@ -22,6 +24,14 @@
 
             #endregion
 
+            #region Question03
+            //{
+            //    StringBuilder sb = new StringBuilder();
+            //    sb.Append("Book List");
+            //    sb.Append(" - Updated");
+            //    Console.WriteLine(sb.ToString());
+            //}
+            #endregion
         }
     }
 }
