@@ -1,17 +1,198 @@
-﻿namespace Task
+﻿using System.Text;
+
+namespace Task
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             #region Question 1
-            string title = "Clean code";
-            title = title.ToUpper();
-            string upperTitle = title.ToUpper();
-            Console.WriteLine(title);
-            Console.WriteLine(upperTitle);
-            #endregion
-        }
 
+            //string title = "Clean code";
+            //title = title.ToUpper();
+            //string upperTitle = title.ToUpper();
+            //Console.WriteLine(title);
+            //Console.WriteLine(upperTitle);
+
+            #endregion
+
+            #region Question 2
+            //string title = "Clean code";
+            //string title2 = "Clean code";
+            //bool areSame = ReferenceEquals(title, title2);
+            //Console.WriteLine(areSame);
+
+            #endregion
+
+            #region Question03
+            //{
+            //    StringBuilder sb = new StringBuilder();
+            //    sb.Append("Book List");
+            //    sb.Append(" - Updated");
+            //    Console.WriteLine(sb.ToString());
+            //}
+            #endregion
+
+            #region Question04
+            //{
+            //    StringBuilder sb = new StringBuilder();
+            //    sb.Append("Book List");
+            //    sb.Append(" - Updated");
+            //    sb.Replace("Book List", "Library");
+            //    Console.WriteLine(sb.ToString());
+            //}
+            #endregion
+
+            #region Question05
+            //{
+            //    string title = "Clean Code";
+            //    int pages = 464;
+            //    string sentence = "Book: " + title + ", Pages: " + pages;
+            //    Console.WriteLine(sentence);
+            //}
+            #endregion
+
+            #region Question06
+            //{
+            //    string title = "Clean Code";
+            //    int pages = 464;
+            //    string sentence = $"Book: {title}, Pages: {pages}";
+            //    Console.WriteLine(sentence);
+            //}
+            #endregion
+
+            #region Question07
+            //{
+            //    string title = "Clean Code";
+            //    int pages = 464;
+            //    string sentence = string.Format("Book: {0}, Pages: {1}", title, pages);
+            //    Console.WriteLine(sentence);
+            //}
+            #endregion
+
+            #region Question08
+            //{
+            //    int pages = 464;
+            //    if (pages > 300)
+            //    {
+            //        Console.WriteLine("Long Book");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Short Book");
+            //    }
+            //}
+            #endregion
+
+            #region Question09
+            //{
+            //    int pages = 464;
+            //    bool isAvailable = true;
+            //    if (pages > 300 && isAvailable)
+            //    {
+            //        Console.WriteLine("You can borrow this book");
+            //    }
+            //}
+            #endregion
+
+            #region Question10
+            //{
+            //    string title = "Refactoring";
+            //    switch (title)
+            //    {
+            //        case "Clean Code":
+            //            Console.WriteLine("Great choice!");
+            //            break;
+            //        case "Refactoring":
+            //            Console.WriteLine("Nice pick!");
+            //            break;
+            //        default:
+            //            Console.WriteLine("Never heard of it");
+            //            break;
+            //    }
+            //}
+            #endregion
+
+            #region Question11
+            //{
+            //    int pages = 464;
+            //    string sizeLabel = pages > 300 ? "Long Book" : "Short Book";
+            //    Console.WriteLine(sizeLabel);
+            //}
+            #endregion
+
+            #region Question12
+            //{
+            //    string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //    for (int i = 0; i < books.Length; i++)
+            //    {
+            //        Console.WriteLine((i + 1) + ". " + books[i]);
+            //    }
+            //}
+            #endregion
+
+            #region Question13
+            //{
+            //    string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //    int i = 0;
+            //    while (i < books.Length)
+            //    {
+            //        Console.WriteLine(books[i]);
+            //        i++;
+            //    }
+            //}
+            #endregion
+
+            #region Question14
+            //{
+            //    int count = 0;
+            //    do
+            //    {
+            //        Console.WriteLine("Checking book...");
+            //        count++;
+            //    } while (count < 3);
+            //}
+            #endregion
+
+            #region Question15
+            //{
+            //    string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //    foreach (string book in books)
+            //    {
+            //        Console.WriteLine(book);
+            //    }
+            //}
+            #endregion
+
+            #region Question16
+            {
+                string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+                foreach (string book in books)
+                {
+                    if (book == "Refactoring")
+                    {
+                        break;
+                    }
+                    Console.WriteLine(book);
+                }
+            }
+            #endregion
+
+            #region Question17
+            //{
+            //    string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //    foreach (string book in books)
+            //    {
+            //        if (book == "The Pragmatic Programmer")
+            //        {
+            //            continue;
+            //        }
+            //        Console.WriteLine(book);
+            //    }
+            //}
+            #endregion
+
+
+        }
     }
 }
